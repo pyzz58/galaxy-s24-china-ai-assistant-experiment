@@ -9,6 +9,8 @@
 
 > **Summary.** A custom Android app was successfully invoked by a *physical long-press* of the Galaxy S24 side key using Android's official assistant mechanism. A first implementation built around VoiceInteractionService repeatedly failed to bind its VoiceInteractionSessionService. Switching to an Activity handling ACTION_ASSIST fixed the launch path, both in an isolated test package and in the main app. However, an end-to-end Chinese voice assistant was **not** completed: the device exposed no usable standard third-party speech recognizer, and later cloud speech-to-text (STT) requests returned HTTP 401. After documenting the results, the project was voluntarily paused.
 
+**Technical appendix:** [Manifest, Kotlin excerpts, ADB reproduction steps, version-by-version evidence and rollback](TECHNICAL_EVIDENCE.md). This is source-derived evidence from one tested device, not a separately re-tested, turnkey application.
+
 ## The experiment at a glance
 
 **Tested on a China-market Galaxy S24 (SM-S9210, CHC, Android 16 / One UI 8.5).**
