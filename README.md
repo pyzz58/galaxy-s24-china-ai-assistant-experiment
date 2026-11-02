@@ -1,5 +1,9 @@
 # Trying to Replace the AI Assistant on a China-Market Samsung Galaxy S24
 
+<!-- Badges -->
+> ⭐ **If this report helps your Android assistant work, please star this repo.**  
+> 💬 **Questions, replications, or corrections? [Start a Discussion](https://github.com/pyzz58/galaxy-s24-china-ai-assistant-experiment/discussions) — no Issue needed.**
+
 **An independent Android engineering field report — what was attempted, what worked, what failed, and why the experiment stopped**
 
 **Status:** Paused / experimental, **not a finished voice assistant**  
@@ -308,3 +312,15 @@ If resumed, a focused next step would be to confirm the chosen STT service's cre
 ---
 
 *Evidence standard: this public report includes only anonymized excerpts and bounded test outcomes. It does not disclose private user data or claim that untested assistant features worked.*
+
+
+## 💬 Feedback & Discussion
+
+Found this useful? Here's how you can contribute:
+
+- **⭐ Star this repo** — helps others discover this experiment.
+- **💬 [Start a Discussion](https://github.com/pyzz58/galaxy-s24-china-ai-assistant-experiment/discussions)** — share your replication results, ask questions, or suggest next steps. Discussions are open and don't require creating an Issue.
+- **🐛 [Open an Issue](https://github.com/pyzz58/galaxy-s24-china-ai-assistant-experiment/issues/new)** — found a factual error or have a concrete correction? Issues are welcome too.
+- **🔄 Fork & extend** — if you pick up where this paused (e.g., solving the STT 401 problem or testing on another CSC), fork it and link back here.
+
+This is an independent, non-commercial experiment. All feedback — positive, negative, or corrective — is welcome.
